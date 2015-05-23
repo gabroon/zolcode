@@ -553,6 +553,7 @@ nav#menu #menu-nav li a {
 
 nav#menu #menu-nav li.current a,
 nav#menu #menu-nav li a:hover {
+	//change colour of this part also
 	color: #DE5E60;
 }
 
@@ -1100,6 +1101,7 @@ nav#menu #menu-nav li a:hover {
 
 #social ul li:hover a,
 #social ul li.active a {
+	//this the colour you are looking for change it to the logos colour 
 	background-color: #DE5E60;	
 	
 	-webkit-transform: rotateY(0deg);

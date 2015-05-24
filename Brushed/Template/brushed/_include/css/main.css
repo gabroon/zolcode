@@ -7,6 +7,24 @@ Description: Personal Website and Portfolio of Alessio Atzeni
 Version: 1.0
 */
 
+/* ==================================================
+   fonts
+================================================== */
+
+@font-face {
+    font-family: Inconsolata;
+    src: url(fonts/Inconsolata.otf);
+}
+@font-face {
+    font-family: queen;
+    src: url(fonts/Queen_of_the_Moon.ttf);
+}
+@font-face {
+    font-family: seaside;
+    src: url(fonts/Seaside_Heights.ttf);
+}
+
+
 
 /* ==================================================
    Basic Styles
@@ -34,7 +52,7 @@ body{
 
 
 a{
-	color:#DE5E60;
+	color:#27b29f;
 	text-decoration: none;
 	cursor: pointer;
 	
@@ -104,7 +122,7 @@ hr {
 }
 
 .color-text {
-    color: #DE5E60;
+    color: #27b29f;
 }
 
 .through{
@@ -316,6 +334,7 @@ h3.spec {
 	height: 250px;
 	text-align: center;
 	z-index: 2;	
+	
 }
 
 #home-slider #slidecaption {
@@ -329,8 +348,9 @@ h3.spec {
 #home-slider .slide-content {
 	font-size: 60px;
 	color: #FFFFFF;
-	letter-spacing: -3px;
+	letter-spacing: 0px;
 	text-transform: uppercase;	
+	font-family: "Inconsolata";
 }
 
 #home-slider .control-nav {
@@ -373,7 +393,7 @@ h3.spec {
 
 #home-slider #nextslide:hover,
 #home-slider #prevslide:hover {
-	background-color:#DE5E60;
+	background-color:#27b29f;
 }
 
 #home-slider #nextslide i,
@@ -431,7 +451,7 @@ h3.spec {
 
 #home-slider ul#slide-list li.current-slide a,
 #home-slider ul#slide-list li.current-slide a:hover {
-	background-color:#DE5E60;
+	background-color:#27b29f;
 }
 
 #home-slider #nextsection {
@@ -449,7 +469,7 @@ h3.spec {
 }
 
 #home-slider #nextsection:hover {
-	background-color:#DE5E60;
+	background-color:#27b29f;
 }
 
 #home-slider #nextsection i {
@@ -554,7 +574,8 @@ nav#menu #menu-nav li a {
 nav#menu #menu-nav li.current a,
 nav#menu #menu-nav li a:hover {
 	/*change colour of this part also*/
-	color: #DE5E60;
+	/*color: #27b29f;*/
+	color:#27b29f;
 }
 
 
@@ -693,7 +714,7 @@ nav#menu #menu-nav li a:hover {
 }
 
 .work-nav #filters li a.selected {
-	color: #DE5E60;
+	color: #27b29f;
 }
 
 #thumbs {
@@ -753,7 +774,7 @@ nav#menu #menu-nav li a:hover {
 	position: absolute;
 	width: 100%;
 	height: 100%;
-	background: #DE5E60;
+	background: #27b29f;
 	
 	opacity: 0.80;
 	filter: alpha(opacity=80);
@@ -833,7 +854,7 @@ nav#menu #menu-nav li a:hover {
 	position: absolute;
 	width: 100%;
 	height: 100%;
-	background: #DE5E60;
+	background: #27b29f;
 	
 	opacity: 0.80;
 	filter: alpha(opacity=80);
@@ -980,7 +1001,7 @@ nav#menu #menu-nav li a:hover {
 }
 
 #contact-form .submit:hover {
-    background: #DE5E60;
+    background: #27b29f;
     color: #FFFFFF;
 }
 
@@ -1102,7 +1123,7 @@ nav#menu #menu-nav li a:hover {
 #social ul li:hover a,
 #social ul li.active a {
 	/*this the colour you are looking for change it to the logos colour */
-	background-color: #DE5E60;	
+	background-color: #27b29f;	
 	
 	-webkit-transform: rotateY(0deg);
 	   -moz-transform: rotateY(0deg);
@@ -1167,7 +1188,7 @@ footer .credits {
 }
 
 #back-to-top:hover {
-	background-color:#DE5E60;
+	background-color:#27b29f;
 }
 
 #back-to-top i {
@@ -1243,7 +1264,7 @@ footer .credits {
 	margin: -50px 0 0 -50px;
 	width: 100px;
 	height: 100px;
-	background: #DE5E60;
+	background: #27b29f;
 	-webkit-border-radius: 999px;
 	-moz-border-radius: 999px;
 	border-radius: 999px;

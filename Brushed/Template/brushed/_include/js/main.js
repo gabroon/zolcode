@@ -21,7 +21,7 @@ BRUSHED.mobileNav = function(){
 			$('#mobile-nav').removeClass('open');	
 		}
 	}
-}
+};
 
 BRUSHED.listenerMenu = function(){
 	$('#mobile-nav').on('click', function(e){
@@ -39,7 +39,7 @@ BRUSHED.listenerMenu = function(){
 		$('#mobile-nav').removeClass('open');
 		$('#navigation-mobile').slideUp(350, 'easeOutExpo');
 	});
-}
+};
 
 
 /* ==================================================
@@ -77,10 +77,10 @@ BRUSHED.slider = function(){
 		thumb_links				:	0,			// Individual thumb links for each slide
 		thumbnail_navigation    :   0,			// Thumbnail navigation
 		slides 					:  	[			// Slideshow Images
-											{image : '_include/img/slider-images/image01.jpg', title : '<div class="slide-content">Brushed</div>', thumb : '', url : ''},
-											{image : '_include/img/slider-images/image02.jpg', title : '<div class="slide-content">Brushed</div>', thumb : '', url : ''},
-											{image : '_include/img/slider-images/image03.jpg', title : '<div class="slide-content">Brushed</div>', thumb : '', url : ''},
-											{image : '_include/img/slider-images/image04.jpg', title : '<div class="slide-content">Brushed</div>', thumb : '', url : ''}  
+											{image : '_include/img/slider-images/image01.jpg', title : '<div class="slide-content"><img src="_include/img/logoslider.png" alt="logo" /></div>', thumb : '', url : ''},
+											{image : '_include/img/slider-images/image02.jpg', title : '<div class="slide-content">culture & technology </div>', thumb : '', url : ''},
+											{image : '_include/img/slider-images/image03.jpg', title : '<div class="slide-content">quality & customer satisfaction</div>', thumb : '', url : ''},
+											{image : '_include/img/slider-images/image04.jpg', title : '<div class="slide-content">we are here for you :)</div>', thumb : '', url : ''}  
 									],
 									
 		// Theme Options			   
@@ -89,7 +89,7 @@ BRUSHED.slider = function(){
 		
 	});
 
-}
+};
 
 
 /* ==================================================
@@ -98,7 +98,7 @@ BRUSHED.slider = function(){
 
 BRUSHED.nav = function(){
 	$('.sticky-nav').waypoint('sticky');
-}
+};
 
 
 /* ==================================================
@@ -151,7 +151,7 @@ BRUSHED.filter = function (){
 			return false;
 		});
 	}
-}
+};
 
 
 /* ==================================================
@@ -180,7 +180,7 @@ BRUSHED.fancyBox = function(){
 			}
 		});
 	}
-}
+};
 
 
 /* ==================================================
@@ -210,7 +210,7 @@ BRUSHED.contactForm = function(){
 		});
 		return false;
 	});
-}
+};
 
 
 /* ==================================================
@@ -243,8 +243,7 @@ BRUSHED.tweetFeed = function(){
 	  ticker();
 	});
 	
-}
-
+};
 
 /* ==================================================
    Menu Highlight
@@ -260,7 +259,7 @@ BRUSHED.menu = function(){
 		easing: 'easeOutExpo',
 		filter: ':not(.external)'
 	});
-}
+};
 
 /* ==================================================
    Next Section
@@ -273,7 +272,7 @@ BRUSHED.goSection = function(){
 		$('body, html').animate({scrollTop : $target}, 750, 'easeOutExpo');
 		return false;
 	});
-}
+};
 
 /* ==================================================
    GoUp
@@ -286,7 +285,7 @@ BRUSHED.goUp = function(){
 		$('body, html').animate({scrollTop : $target}, 750, 'easeOutExpo');
 		return false;
 	});
-}
+};
 
 
 /* ==================================================
@@ -319,7 +318,7 @@ BRUSHED.scrollToTop = function(){
 			}
 		}
 	}, 250);
-}
+};
 
 /* ==================================================
    Thumbs / Social Effects
@@ -342,7 +341,7 @@ BRUSHED.utils = function(){
       	$(this).addClass('active');
     });
 	
-}
+};
 
 /* ==================================================
    Accordion
@@ -364,7 +363,7 @@ BRUSHED.accordion = function(){
 	 	}
 		event.preventDefault();
 	});
-}
+};
 
 /* ==================================================
    Toggle
@@ -384,7 +383,7 @@ BRUSHED.toggle = function(){
 	 	}
 		event.preventDefault();
 	});
-}
+};
 
 /* ==================================================
    Tooltip
@@ -392,7 +391,7 @@ BRUSHED.toggle = function(){
 
 BRUSHED.toolTip = function(){ 
     $('a[data-toggle=tooltip]').tooltip();
-}
+};
 
 
 /* ==================================================
